@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE500"
+    android:id="@+id/color"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:paddingHorizontal="30dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/cafe"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cafe"
+        android:layout_gravity="top"
+        android:textColor="#4A4948"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

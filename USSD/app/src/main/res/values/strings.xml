@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">USSD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt1">Beeline abonent raqamidan 0611 qisqa raqamiga qo\'ng\'iroq qiling. Qo\'ng\'iroqlar bepul. Faqat jismoniy shaxslar uchun</string>
+    <string name="txt2">+998 90 185 00 55 raqamiga hamma telefon raqamidan qo\'ng\'iroq qilsa bo\'ladi</string>
+    <string name="txt3">0611@beeline.uz elektron pochtasiga mijozlar savollarini yuborishlari mumkin</string>
+</resources>

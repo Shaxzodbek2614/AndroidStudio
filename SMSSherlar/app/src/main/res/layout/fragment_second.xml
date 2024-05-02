@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F0F0"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SecondFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginVertical="@dimen/_20sdp">
+        <ImageView
+            android:id="@+id/qaytish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left"
+            android:padding="@dimen/_8sdp"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="Sevgi\nSHE'RLARI"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/item_rv"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+</LinearLayout>

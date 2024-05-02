@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMS She\'rlar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sher">Sizni birinchi bor ko’rganimdayoq menga yoqib qolgansiz, lekin bu tuyg’u sevgiga aylanadi deb o’ylamagandim . . .</string>
+    <string name="sher2">Ko’zlarim ko’r bo’lsa, ko’rmasdim seni,\nYuragim tosh bo’lsa, sevmasdim seni,\nMayli xijron azobi qiynasin meni,\nO’lsam ham baribir sevaman seni!</string>
+</resources>
